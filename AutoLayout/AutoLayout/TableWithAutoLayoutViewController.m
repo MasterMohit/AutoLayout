@@ -20,7 +20,7 @@
     [super viewDidLoad];
     
     _tableView.rowHeight = UITableViewAutomaticDimension;
-    _tableView.estimatedRowHeight = 140;
+    _tableView.estimatedRowHeight = 5;
 
     // Do any additional setup after loading the view.
 }

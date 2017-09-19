@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "TableWithAutoLayoutViewController.h"
 #import "AutoLayoutImageViewController.h"
+#import "ViewManageViewController.h"
+#import "OrientationViewController.h"
 @interface ViewController ()
 
 @end
@@ -34,6 +36,14 @@
         [self.navigationController pushViewController:vc animated:YES];
     }else if(indexPath.row==1){
         AutoLayoutImageViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"AutoLayoutImageViewController"];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    else if(indexPath.row==2){
+        ViewManageViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"ViewManageViewController"];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    else if(indexPath.row==3){
+        OrientationViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"OrientationViewController"];
         [self.navigationController pushViewController:vc animated:YES];
     }
 }

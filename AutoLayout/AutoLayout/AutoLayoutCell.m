@@ -21,4 +21,16 @@
     // Configure the view for the selected state
 }
 
+-(void)didMoveToWindow{
+    NSLog(@"did move to window");
+}
+
+-(void)willMoveToWindow:(UIWindow *)newWindow{
+
+    if (newWindow) {
+        NSLog(@"View appear");
+    }else{
+        NSLog(@"view disappear");
+    }
+}
 @end

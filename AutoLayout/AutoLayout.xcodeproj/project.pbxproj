@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B0506A9F1F6A9486009ADBE9 /* ViewManageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0506A9E1F6A9486009ADBE9 /* ViewManageViewController.m */; };
+		B09354301F711CA400F3CAF4 /* OrientationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B093542F1F711CA400F3CAF4 /* OrientationViewController.m */; };
 		B0E4658B1F6A82BB0053F7B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E4658A1F6A82BB0053F7B1 /* main.m */; };
 		B0E4658E1F6A82BB0053F7B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E4658D1F6A82BB0053F7B1 /* AppDelegate.m */; };
 		B0E465911F6A82BB0053F7B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E465901F6A82BB0053F7B1 /* ViewController.m */; };
@@ -19,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B0506A9D1F6A9486009ADBE9 /* ViewManageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewManageViewController.h; sourceTree = "<group>"; };
+		B0506A9E1F6A9486009ADBE9 /* ViewManageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewManageViewController.m; sourceTree = "<group>"; };
+		B093542E1F711CA400F3CAF4 /* OrientationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrientationViewController.h; sourceTree = "<group>"; };
+		B093542F1F711CA400F3CAF4 /* OrientationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrientationViewController.m; sourceTree = "<group>"; };
 		B0E465861F6A82BB0053F7B1 /* AutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0E4658A1F6A82BB0053F7B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B0E4658C1F6A82BB0053F7B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -82,6 +88,10 @@
 				B0E465971F6A82BB0053F7B1 /* LaunchScreen.storyboard */,
 				B0E4659A1F6A82BB0053F7B1 /* Info.plist */,
 				B0E465891F6A82BB0053F7B1 /* Supporting Files */,
+				B0506A9D1F6A9486009ADBE9 /* ViewManageViewController.h */,
+				B0506A9E1F6A9486009ADBE9 /* ViewManageViewController.m */,
+				B093542E1F711CA400F3CAF4 /* OrientationViewController.h */,
+				B093542F1F711CA400F3CAF4 /* OrientationViewController.m */,
 			);
 			path = AutoLayout;
 			sourceTree = "<group>";
@@ -166,9 +176,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0E465AB1F6A83620053F7B1 /* AutoLayoutCell.m in Sources */,
+				B09354301F711CA400F3CAF4 /* OrientationViewController.m in Sources */,
 				B0E465A51F6A83290053F7B1 /* TableWithAutoLayoutViewController.m in Sources */,
 				B0E465911F6A82BB0053F7B1 /* ViewController.m in Sources */,
 				B0E4658E1F6A82BB0053F7B1 /* AppDelegate.m in Sources */,
+				B0506A9F1F6A9486009ADBE9 /* ViewManageViewController.m in Sources */,
 				B0E4658B1F6A82BB0053F7B1 /* main.m in Sources */,
 				B0E465A41F6A83290053F7B1 /* AutoLayoutImageViewController.m in Sources */,
 			);
@@ -327,6 +339,7 @@
 				B0E4659F1F6A82BB0053F7B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
